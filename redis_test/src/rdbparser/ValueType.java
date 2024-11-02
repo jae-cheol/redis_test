@@ -1,0 +1,36 @@
+package rdbparser;
+
+
+public enum ValueType {
+  VALUE,
+
+  LIST,
+
+  SET,
+
+  SORTED_SET,
+
+  HASH,
+
+  ZIPMAP,
+
+  ZIPLIST,
+
+  INTSET,
+
+  SORTED_SET_AS_ZIPLIST,
+
+  SORTED_SET_AS_LISTPACK,
+
+  HASHMAP_AS_ZIPLIST,
+
+  QUICKLIST,
+
+  QUICKLIST2,
+
+  SORTED_SET2,
+
+  HASHMAP_AS_LISTPACK,
+
+  LISTPACK;
+}
